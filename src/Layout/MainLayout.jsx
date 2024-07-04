@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className="font-custom-text-Sora">
             <Outlet></Outlet>
         </div>
     );
