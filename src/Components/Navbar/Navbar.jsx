@@ -16,7 +16,7 @@ const Navbar = () => {
           offset={-120}
           duration={500}
         >
-          Home
+          About
         </Link>
       </li>
       <li className="nav-item">

@@ -1,7 +1,7 @@
 // import CountUp from "react-countup/build/CountUp";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import { PiDownloadSimple } from "react-icons/pi";
-import { RiGithubLine, RiLinkedinFill, RiLinkedinLine } from "react-icons/ri";
+// import { PiDownloadSimple } from "react-icons/pi";
+import { RiGithubLine, RiLinkedinFill } from "react-icons/ri";
 import CountUp from "react-countup";
 
 const Introduction = () => {
@@ -50,7 +50,7 @@ const Introduction = () => {
         </div>
       </div>
       {/* Stats */}
-      <div className="bg-theme-accent border-2 border-theme-secondary px-6 py-7 md:px-8 md:py-10 lg:p-10 rounded-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 text-center gap-5 md:gap-0 md:gap-y-5 lg:gap-0">
+      <div className="bg-theme-accent border-2 border-theme-secondary px-6 py-7 md:px-8 md:py-10 lg:p-10 rounded-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 text-center gap-5 md:gap-0 md:gap-y-5 lg:gap-0">
         {/* experience */}
         <div className="">
           <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
