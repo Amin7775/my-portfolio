@@ -1,0 +1,9 @@
+.nav-item{
+  margin: 0px 2px;
+
+}
+
+.nav-item .active {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #8750f7;
+}
