@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <div className="navbar text-off-white border-b border-b-theme-secondary drop-shadow-md  mx-auto mb-5 bg-theme-bg">
+      <div className="navbar text-off-white border-b border-b-theme-secondary drop-shadow-md  mx-auto mb-5 bg-theme-bg py-5 md:py-3">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -89,8 +89,8 @@ const Navbar = () => {
               {navlinks}
             </ul>
           </div>
-          <div className="btn btn-ghost text-2xl py-1 h-auto flex items-center`">
-            <FaCode className="text-6xl "></FaCode>
+          <div className="btn btn-ghost text-2xl py-1 h-auto flex items-center">
+            <FaCode className="text-lg md:text-6xl hidden md:flex"></FaCode>
             <h1 className="font-normal">AL Amin</h1>
           </div>
         </div>
@@ -103,7 +103,7 @@ const Navbar = () => {
           <a
             href={resume}
             download={"AL Amin Resume"}
-            className="btn bg-theme-primary text-off-white border-0 px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105 hidden md:flex"
+            className="btn bg-theme-primary text-off-white border-0 px-5 md:px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105 flex"
           >
             Resume
             <PiDownloadSimple className="text-xl"></PiDownloadSimple>

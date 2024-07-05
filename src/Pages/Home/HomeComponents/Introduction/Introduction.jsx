@@ -1,6 +1,8 @@
+// import CountUp from "react-countup/build/CountUp";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { PiDownloadSimple } from "react-icons/pi";
 import { RiGithubLine, RiLinkedinFill, RiLinkedinLine } from "react-icons/ri";
+import CountUp from "react-countup";
 
 const Introduction = () => {
   return (
@@ -48,7 +50,36 @@ const Introduction = () => {
         </div>
       </div>
       {/* Stats */}
-      <div></div>
+      <div className="bg-theme-accent border-2 border-theme-secondary px-6 py-7 md:px-8 md:py-10 lg:p-10 rounded-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 text-center gap-5 md:gap-0 md:gap-y-5 lg:gap-0">
+        {/* experience */}
+        <div className="">
+          <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
+            <CountUp start={0} end={1} duration={3.5} />+
+          </h1>
+          <p className="mt-1 md:text-lg">Years of experience</p>
+        </div>
+        {/* Projects */}
+        <div>
+          <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
+            <CountUp start={15} end={30} duration={3.5} />+
+          </h1>
+          <p className="mt-1 md:text-lg">Projects completed</p>
+        </div>
+        {/* technologies */}
+        <div>
+          <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
+            <CountUp start={0} end={10} duration={3.5} />+
+          </h1>
+          <p className="mt-1 md:text-lg">Technologies mastered</p>
+        </div>
+        {/* commits */}
+        <div>
+          <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
+            <CountUp start={1000} end={1200} duration={3.5} />+
+          </h1>
+          <p className="mt-1 md:text-lg">Github commits</p>
+        </div>
+      </div>
     </div>
   );
 };
