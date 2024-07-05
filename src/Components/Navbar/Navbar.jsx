@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <div className="navbar text-off-white border-b border-b-theme-secondary drop-shadow-md  mx-auto mb-5 bg-theme-accent">
+      <div className="navbar text-off-white border-b border-b-theme-secondary drop-shadow-md  mx-auto mb-5 bg-theme-bg">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -103,7 +103,7 @@ const Navbar = () => {
           <a
             href={resume}
             download={"AL Amin Resume"}
-            className="btn bg-theme-primary text-off-white border-0 px-7 rounded-full"
+            className="btn bg-theme-primary text-off-white border-0 px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105 hidden md:flex"
           >
             Resume
             <PiDownloadSimple className="text-xl"></PiDownloadSimple>

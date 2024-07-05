@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         custom_Dark: "#282930",
+        "theme-bg": "#0F0715",
         "theme-primary": "#8750f7",
         "theme-secondary": "#2a1454",
         "heading-primary": "#102039",
