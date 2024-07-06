@@ -28,14 +28,18 @@ const Project3 = () => {
           </h3>
           <ul className="text-gray-300 space-y-2 hidden lg:block">
             <li>
-              - <span className="font-medium">Search Bar:</span> Search services on the "Service" page with dynamic results.
+              - <span className="font-medium">Search Bar:</span> Search services
+              on the "Service" page with dynamic results.
             </li>
             <li>
-              - <span className="font-medium">Notifications:</span> Alerts for user actions and errors. Service providers get confirmations for service changes.
+              - <span className="font-medium">Notifications:</span> Alerts for
+              user actions and errors. Service providers get confirmations for
+              service changes.
             </li>
             <li>
-              - <span className="font-medium">Dynamic Schedules:</span>{" "}
-              Users can view and track their bookings and progress on "My Schedules". providers can update statuses, shared with users.
+              - <span className="font-medium">Dynamic Schedules:</span> Users
+              can view and track their bookings and progress on "My Schedules".
+              providers can update statuses, shared with users.
             </li>
           </ul>
           {/* btns */}
@@ -63,11 +67,13 @@ const Project3 = () => {
         </div>
         {/* image */}
         <div className="bg-[#11171C] p-3 md:p-6 rounded-lg">
-          <img
-            className="w-full md:h-[500px] object-contain object-top rounded-lg"
-            src={houseMaster}
-            alt=""
-          />
+          <a href="https://house-master-eba63.web.app/">
+            <img
+              className="w-full md:h-[500px] object-contain object-top rounded-lg"
+              src={houseMaster}
+              alt=""
+            />
+          </a>
         </div>
       </div>
     </CommonDiv>

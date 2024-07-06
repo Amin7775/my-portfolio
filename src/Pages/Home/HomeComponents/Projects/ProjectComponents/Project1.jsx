@@ -65,11 +65,13 @@ const Project1 = () => {
         </div>
         {/* image */}
         <div className="bg-[#11171C] p-3 md:p-6 rounded-lg">
-          <img
-            className="w-full md:h-[500px] object-contain object-top rounded-lg"
-            src={Discy}
-            alt=""
-          />
+          <a href="https://discy-b9-a11.web.app/">
+            <img
+              className="w-full md:h-[500px] object-contain object-top rounded-lg"
+              src={Discy}
+              alt=""
+            />
+          </a>
         </div>
       </div>
     </CommonDiv>

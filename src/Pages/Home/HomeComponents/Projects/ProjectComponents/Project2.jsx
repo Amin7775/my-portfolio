@@ -68,11 +68,13 @@ const Project2 = () => {
         </div>
         {/* image */}
         <div className="bg-[#11171C] p-3 md:p-6 rounded-lg">
-          <img
-            className="w-full md:h-[500px] object-contain object-top rounded-lg"
-            src={tekup}
-            alt=""
-          />
+          <a href="https://tekup-a12.web.app/">
+            <img
+              className="w-full md:h-[500px] object-contain object-top rounded-lg"
+              src={tekup}
+              alt=""
+            />
+          </a>
         </div>
       </div>
     </CommonDiv>
