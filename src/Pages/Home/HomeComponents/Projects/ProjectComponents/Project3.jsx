@@ -42,20 +42,20 @@ const Project3 = () => {
           <div className="mt-3 flex gap-4 flex-wrap justify-center md:justify-start">
             <a
               href="https://house-master-eba63.web.app/"
-              className="btn bg-theme-primary text-off-white border-0 px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out "
+              className="btn bg-theme-primary text-off-white border-2 border-theme-bg px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out "
             >
               View Website
               <MdOutlineArrowOutward className="text-xl"></MdOutlineArrowOutward>
             </a>
             <a
               href="https://github.com/Amin7775/House-Master-client-side"
-              className="btn bg-theme-primary text-off-white border-0 px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out "
+              className="btn bg-theme-primary text-off-white border-2 border-theme-bg px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out "
             >
               Client code
             </a>
             <a
               href="https://github.com/Amin7775/House-Master-server-side"
-              className="btn bg-theme-primary text-off-white border-0 px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out "
+              className="btn bg-theme-primary text-off-white border-2 border-theme-bg px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out "
             >
               Server code
             </a>
