@@ -35,7 +35,7 @@ const Introduction = () => {
               <MdOutlineArrowOutward className="text-xl"></MdOutlineArrowOutward>
             </a>
             <a
-              href="https://www.linkedin.com/in/amin77589/"
+              href="https://www.linkedin.com/in/amin24/"
               className="p-2.5 bg-transparent border border-theme-primary text-theme-primary rounded-full hover:bg-theme-primary hover:border-theme-primary hover:text-off-white transition-all duration-300 ease-in-out transform hover:scale-105"
             >
               <RiLinkedinFill className="text-base"></RiLinkedinFill>

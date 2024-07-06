@@ -1,4 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
+import Contact from "./HomeComponents/Contact/Contact";
 import Education from "./HomeComponents/Education/Education";
 import Introduction from "./HomeComponents/Introduction/Introduction";
 import Projects from "./HomeComponents/Projects/Projects";
@@ -11,7 +12,7 @@ const Home = () => {
       <div className="fixed container top-0 z-10">
         <Navbar></Navbar>
       </div>
-      <div className="px-5 md:px-8 lg:px-4 2xl:px-1 pt-32 flex flex-col gap-14">
+      <div className="px-5 md:px-8 lg:px-4 2xl:px-1 pt-32 pb-14 flex flex-col gap-14">
         {/* introduction */}
         <div id="homeMain" className="">
           <Introduction></Introduction>
@@ -27,8 +28,7 @@ const Home = () => {
           <Education></Education>
         </div>
         <div id="contact">
-          {/* <div className="h-28 bg-transparent"></div> */}
-          <h1 className="text-3xl font-bold">This is contact</h1>
+          <Contact></Contact>
         </div>
       </div>
     </div>
