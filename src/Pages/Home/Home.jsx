@@ -1,4 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
+import Education from "./HomeComponents/Education/Education";
 import Introduction from "./HomeComponents/Introduction/Introduction";
 import Projects from "./HomeComponents/Projects/Projects";
 import Skills from "./HomeComponents/Skills/Skills";
@@ -16,18 +17,17 @@ const Home = () => {
           <Introduction></Introduction>
         </div>
         <div id="skills" className="mt-2">
-          {/* <h1 className="text-3xl font-bold">This is Skills</h1> */}
           <Skills></Skills>
         </div>
-        <div id="projects" className="min-h-screen">
-          {/* <h1 className="text-3xl font-bold">This is Projects</h1> */}
+        <div id="projects">
           <Projects></Projects>
         </div>
-        <div id="education" className="min-h-screen">
-          <h1 className="text-3xl font-bold">This is Education</h1>
+        <div id="education">
+          {/* <h1 className="text-3xl font-bold">This is Education</h1> */}
+          <Education></Education>
         </div>
-        <div id="contact" className="min-h-screen">
-          <div className="h-28 bg-transparent"></div>
+        <div id="contact">
+          {/* <div className="h-28 bg-transparent"></div> */}
           <h1 className="text-3xl font-bold">This is contact</h1>
         </div>
       </div>
