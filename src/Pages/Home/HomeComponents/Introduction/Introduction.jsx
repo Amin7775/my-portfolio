@@ -29,7 +29,7 @@ const Introduction = () => {
           <div className="mt-4 md:mt-6 lg:mt-5 flex items-center gap-4 justify-center lg:justify-normal">
             <a
               href="#contact"
-              className="btn bg-theme-primary text-off-white border-0 px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105"
+              className="btn bg-theme-primary text-off-white border-2 border-theme-bg px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105"
             >
               Contact me!
               <MdOutlineArrowOutward className="text-xl"></MdOutlineArrowOutward>

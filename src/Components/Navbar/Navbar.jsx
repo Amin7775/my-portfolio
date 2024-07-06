@@ -103,7 +103,7 @@ const Navbar = () => {
           <a
             href={resume}
             download={"AL Amin Resume"}
-            className="btn bg-theme-primary text-off-white border-0 px-5 md:px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105 flex"
+            className="btn bg-theme-primary text-off-white border-2 border-theme-bg px-5 md:px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105 flex"
           >
             Resume
             <PiDownloadSimple className="text-xl"></PiDownloadSimple>

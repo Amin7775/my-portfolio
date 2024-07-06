@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import Contact from "./HomeComponents/Contact/Contact";
 import Education from "./HomeComponents/Education/Education";
@@ -29,12 +30,15 @@ const Home = () => {
           <Projects></Projects>
         </div>
         <div id="education">
-          {/* <h1 className="text-3xl font-bold">This is Education</h1> */}
           <Education></Education>
         </div>
         <div id="contact">
           <Contact></Contact>
         </div>
+      </div>
+      {/* footer */}
+      <div>
+        <Footer></Footer>
       </div>
     </div>
   );
