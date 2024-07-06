@@ -4,14 +4,24 @@ const Footer = () => {
   return (
     <footer className="footer footer-center bg-theme-secondary text-off-white rounded p-10">
       <nav>
-      <FaCode className="text-lg md:text-6xl "></FaCode>
+        <FaCode className="text-6xl lg:text-7xl"></FaCode>
       </nav>
-      <nav className="grid grid-flow-col gap-5 text-base font-medium">
-        <a href="#homeMain" className="link link-hover">About</a>
-        <a href="#skills" className="link link-hover">Skills</a>
-        <a href="#projects" className="link link-hover">Projects</a>
-        <a href="#education" className="link link-hover">Education</a>
-        <a href="#contact" className="link link-hover">Contact</a>
+      <nav className="flex flex-wrap justify-center gap-3 md:gap-5 md:text-base font-medium">
+        <a href="#homeMain" className="link link-hover">
+          About
+        </a>
+        <a href="#skills" className="link link-hover">
+          Skills
+        </a>
+        <a href="#projects" className="link link-hover">
+          Projects
+        </a>
+        <a href="#education" className="link link-hover">
+          Education
+        </a>
+        <a href="#contact" className="link link-hover">
+          Contact
+        </a>
       </nav>
       <aside>
         <p>
