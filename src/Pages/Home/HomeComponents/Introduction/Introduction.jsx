@@ -13,7 +13,8 @@ const Introduction = () => {
         <div>
           <img
             className="h-80 w-full object-cover rounded-lg"
-            src="https://i.ibb.co/KFtQx0d/2.jpg"
+            src="https://i.ibb.co/kJ4v3Jk/IMG-20221029-WA0014-1.jpg"
+            // src="https://i.ibb.co/KFtQx0d/2.jpg"
             alt=""
           />
         </div>
