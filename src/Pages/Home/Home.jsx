@@ -9,17 +9,22 @@ const Home = () => {
   return (
     <div className="relative">
       {/* navbar */}
-      <div className="fixed container top-0 z-10">
-        <Navbar></Navbar>
+      <div className="fixed top-0 z-10 w-full mx-auto">
+        <div className="container mx-auto">
+          <Navbar></Navbar>
+        </div>
       </div>
-      <div className="px-5 md:px-8 lg:px-4 2xl:px-1 pt-32 pb-14 flex flex-col gap-14">
+      {/* main section */}
+      <div className="px-5 md:px-8 lg:px-4 2xl:px-1 pt-32 pb-14 flex flex-col gap-14 container mx-auto">
         {/* introduction */}
         <div id="homeMain" className="">
           <Introduction></Introduction>
         </div>
-        <div id="skills" className="mt-2">
+        {/* skills */}
+        <div id="skills" className="lg:mt-2">
           <Skills></Skills>
         </div>
+        {/* projects */}
         <div id="projects">
           <Projects></Projects>
         </div>

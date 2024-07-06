@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      <div className="navbar text-off-white border-b border-b-theme-secondary drop-shadow-md  mx-auto mb-5 bg-theme-bg py-5 md:py-3">
+      <div className="navbar text-off-white border-b-2 border-b-theme-secondary drop-shadow-md  mx-auto mb-5 bg-theme-bg py-5 md:py-3 px-5 lg:px-0">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -84,7 +84,7 @@ const Navbar = () => {
             <ul
               id="sidebar"
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black "
+              className="menu menu-sm dropdown-content bg-theme-accent border-2 border-theme-primary text-gray-300 rounded-box z-[1] mt-3 w-52 p-3 shadow "
             >
               {navlinks}
             </ul>

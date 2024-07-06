@@ -18,7 +18,7 @@ const Skills = () => {
       <CommonHeading heading={"My Skills"}></CommonHeading>
 
       {/* container */}
-      <div className="flex justify-center gap-5 md:gap-6 flex-wrap items-center mt-10 md:mt-12">
+      <div className="flex justify-center gap-5 md:gap-6 flex-wrap items-center mt-14">
         <SkillsDiv>
           <div className="px-1.5">
             <img className="h-24 w-full object-cover" src={htmlImage} alt="" />
