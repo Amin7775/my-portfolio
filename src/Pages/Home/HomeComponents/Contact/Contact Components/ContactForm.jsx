@@ -1,25 +1,38 @@
-const ContactForm = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const message = form.message.value;
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-    console.log(name, email, message);
+const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    console.log(form.current)
+    emailjs
+      .sendForm("service_0yyowvj", "template_1la5xqe", form.current, {
+        publicKey: "-lLj0s9W14i7KtBXo",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
   };
   return (
     <div>
-      <form onSubmit={handleSubmit} className="flex flex-col gap-8">
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-8">
         <input
           type="text"
-          name="name"
+          name="from_name"
           className="w-full text-xl border-0 border-b-2 bg-transparent border-theme-primary py-1 px-1 focus:outline-none text-gray-300"
           placeholder="Name"
         />
         <input
           type="email"
-          name="email"
+          name="from_email"
           className="w-full text-xl border-0 border-b-2 bg-transparent border-theme-primary py-1 px-1 focus:outline-none text-gray-300"
           placeholder="Email"
         />
