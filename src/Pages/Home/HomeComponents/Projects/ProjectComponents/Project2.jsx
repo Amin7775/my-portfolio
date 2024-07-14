@@ -14,11 +14,7 @@ const Project2 = () => {
             Employee Management System
           </h3>
           <p className=" text-gray-300">
-            Tekup is an employee management system designed for a company to
-            monitor employee workload, manage salaries, and maintain records of
-            contracts and workflow updates. The system includes distinct
-            functionalities for employees, HR executives, and administrators,
-            facilitating efficient management and transparent operations.
+          “Tekup” is an employee management system for tracking workloads, managing salaries and roles and processing salaries. It efficiently solves employee management challenges while ensuring a secure and user-friendly platform.
           </p>
           <h1 className="md:text-lg font-medium ">Technologies used:</h1>
           <p className="text-gray-300 ">
@@ -30,17 +26,13 @@ const Project2 = () => {
           </h3>
           <ul className="text-gray-300 space-y-2 hidden lg:block">
             <li>
-              - <span className="font-medium">Role-Based Access:</span> Distinct
-              roles for Employees, HR, and Admins with secure email/password and
-              Google login.
+              -	Differentiates functionalities and access levels for Employees, HR, and Admins.
             </li>
             <li>
-              - <span className="font-medium">Payment Integration:</span> Stripe
-              integration for salary processing.
+            -	Manages the verification status of employees to ensure only verified employees are paid.
             </li>
             <li>
-              - <span className="font-medium">Responsive Design:</span>{" "}
-              Optimized for mobile, tablet, and desktop.
+            -	Allows employees to post workflow updates, helping the company track work progress.
             </li>
           </ul>
           {/* btns */}
@@ -67,7 +59,7 @@ const Project2 = () => {
           </div>
         </div>
         {/* image */}
-        <div className="bg-[#11171C] p-3 md:p-6 rounded-lg">
+        <div className="bg-[#11171C] p-3 md:p-6 border-2 border-theme-secondary rounded-lg hover:border-2 hover:border-theme-primary transition-all ease-in-out duration-500">
           <a href="https://tekup-a12.web.app/">
             <img
               className="w-full md:h-[500px] object-contain object-top rounded-lg"

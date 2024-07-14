@@ -14,10 +14,7 @@ const Project1 = () => {
             Alternative Product management System
           </h3>
           <p className=" text-gray-300">
-            Discy is an 'Alternative Product Information System' focused website
-            . It focuses on suggesting alternative products based on queries .
-            Here users can add/update/delete their queries about any product .
-            Others can view these queries and suggest alternative products.
+          “Discy” is an Alternative Product Information System. It is an interactive web platform that enables users to explore and share alternative product options, fostering a community-driven approach to buying new products.
           </p>
           <h1 className="md:text-lg font-medium ">Technologies used:</h1>
           <p className="text-gray-300 ">
@@ -28,16 +25,13 @@ const Project1 = () => {
           </h3>
           <ul className="text-gray-300 space-y-2 hidden lg:block">
             <li>
-              - <span className="font-medium">Search Functionality:</span> Users
-              can search for products on the all queries page.
+              -	Enables user interaction through comments, updates, and feedback on queries.
             </li>
             <li>
-              - <span className="font-medium">Different Theme:</span> Dark and
-              light themes are available for user preference.
+              -	Finds suitable product alternatives through user-posted queries and experiences.
             </li>
             <li>
-              - <span className="font-medium">Recommendations:</span> Users can
-              recommend and receive product suggestions.
+              - Allows users to customize their experience with dark and light themes.
             </li>
           </ul>
           {/* btns */}
@@ -64,7 +58,7 @@ const Project1 = () => {
           </div>
         </div>
         {/* image */}
-        <div className="bg-[#11171C] p-3 md:p-6 rounded-lg">
+        <div className="bg-[#11171C] p-3 md:p-6 border-2 border-theme-secondary rounded-lg hover:border-2 hover:border-theme-primary transition-all ease-in-out duration-500">
           <a href="https://discy-b9-a11.web.app/">
             <img
               className="w-full md:h-[500px] object-contain object-top rounded-lg"

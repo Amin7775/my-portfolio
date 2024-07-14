@@ -14,10 +14,7 @@ const Project3 = () => {
             Home Service Exchange System
           </h3>
           <p className=" text-gray-300">
-            House Master is a home service exchange system where users can
-            register to offer and book services. Providers manage their services
-            and bookings, while seekers browse, book, and track their services.
-            Users can switch roles, fostering a collaborative community.
+          "House Master" is a web application designed to provide services and their management within local communities. By using it, users can effortlessly explore a variety offline services, book them and interact with service providers.
           </p>
           <h1 className="md:text-lg font-medium ">Technologies used:</h1>
           <p className="text-gray-300 ">
@@ -28,18 +25,13 @@ const Project3 = () => {
           </h3>
           <ul className="text-gray-300 space-y-2 hidden lg:block">
             <li>
-              - <span className="font-medium">Search Bar:</span> Search services
-              on the "Service" page with dynamic results.
+            -	Provides a platform for users and service providers to exchange house services.
             </li>
             <li>
-              - <span className="font-medium">Notifications:</span> Alerts for
-              user actions and errors. Service providers get confirmations for
-              service changes.
+            -	Helps users discover various offline services available in their locality.
             </li>
             <li>
-              - <span className="font-medium">Dynamic Schedules:</span> Users
-              can view and track their bookings and progress on "My Schedules".
-              providers can update statuses, shared with users.
+            -	Facilitates the booking of services by providing detailed information about each service and provider.
             </li>
           </ul>
           {/* btns */}
@@ -66,7 +58,7 @@ const Project3 = () => {
           </div>
         </div>
         {/* image */}
-        <div className="bg-[#11171C] p-3 md:p-6 rounded-lg">
+        <div className="bg-[#11171C] p-3 md:p-6 border-2 border-theme-secondary rounded-lg hover:border-2 hover:border-theme-primary transition-all ease-in-out duration-500">
           <a href="https://house-master-eba63.web.app/">
             <img
               className="w-full md:h-[500px] object-contain object-top rounded-lg"
