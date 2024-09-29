@@ -35,7 +35,7 @@ const Contact = () => {
                   amin.dpi24@gmail.com
                 </p>
                 <p className="text-lg md:text-xl underline">
-                  Gabtoli, Dhaka , Bangladesh
+                  Gabtoli, Dhaka, Bangladesh
                 </p>
                 <div className="flex gap-5">
                   <a

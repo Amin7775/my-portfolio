@@ -55,28 +55,28 @@ const Introduction = () => {
         {/* experience */}
         <div className="">
           <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
-            <CountUp start={0} end={1} duration={3.5} />+
+            <CountUp start={0} end={1} duration={4.5} />+
           </h1>
           <p className="mt-1 md:text-lg">Years of experience</p>
         </div>
         {/* Projects */}
         <div>
           <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
-            <CountUp start={15} end={30} duration={3.5} />+
+            <CountUp start={15} end={30} duration={4.5} />+
           </h1>
           <p className="mt-1 md:text-lg">Projects completed</p>
         </div>
         {/* technologies */}
         <div>
           <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
-            <CountUp start={0} end={10} duration={3.5} />+
+            <CountUp start={0} end={10} duration={4.5} />+
           </h1>
           <p className="mt-1 md:text-lg">Technologies mastered</p>
         </div>
         {/* commits */}
         <div>
           <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
-            <CountUp start={1000} end={1200} duration={3.5} />+
+            <CountUp start={1500} end={1600} duration={4.5} />+
           </h1>
           <p className="mt-1 md:text-lg">Github commits</p>
         </div>

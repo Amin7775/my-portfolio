@@ -2,6 +2,7 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import Contact from "./HomeComponents/Contact/Contact";
 import Education from "./HomeComponents/Education/Education";
+import Experience from "./HomeComponents/Experience/Experience";
 import Introduction from "./HomeComponents/Introduction/Introduction";
 import Projects from "./HomeComponents/Projects/Projects";
 import Skills from "./HomeComponents/Skills/Skills";
@@ -28,6 +29,9 @@ const Home = () => {
         {/* projects */}
         <div id="projects">
           <Projects></Projects>
+        </div>
+        <div id="experience">
+          <Experience></Experience>
         </div>
         <div id="education">
           <Education></Education>

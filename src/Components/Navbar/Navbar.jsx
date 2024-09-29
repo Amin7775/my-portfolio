@@ -37,6 +37,17 @@ const Navbar = () => {
       </li>
       <li className="nav-item">
         <Link
+          to="experience"
+          spy={true}
+          smooth={true}
+          offset={-120}
+          duration={500}
+        >
+          Experience
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
           to="education"
           spy={true}
           smooth={true}
@@ -102,7 +113,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a
             href={resume}
-            download={"AL_Amin_Resume_Front_End_Web_Developer_14_July_2024"}
+            download={"AL_Amin_Resume_Front_End_Web_Developer_14_July_2024.pdf"}
             className="btn bg-theme-primary text-off-white border-2 border-theme-bg px-5 md:px-7 rounded-full hover:bg-custom_Dark hover:border-2 hover:border-theme-primary transition-all duration-300 ease-in-out transform hover:scale-105 flex"
           >
             Resume
