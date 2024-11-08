@@ -76,7 +76,7 @@ const Introduction = () => {
         {/* commits */}
         <div>
           <h1 className="text-2xl md:text-4xl text-off-white font-semibold">
-            <CountUp start={1500} end={1600} duration={4.5} />+
+            <CountUp start={1500} end={1700} duration={4.5} />+
           </h1>
           <p className="mt-1 md:text-lg">Github commits</p>
         </div>
