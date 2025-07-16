@@ -1,7 +1,8 @@
 import { FaCode } from "react-icons/fa6";
 import { PiDownloadSimple } from "react-icons/pi";
 // import { NavLink } from "react-router-dom";
-import resume from "./../../assets/Resume/AL_Amin_Resume_Front_End_Web_Developer_14_July_2024.pdf";
+// import resume from "./../../assets/Resume/AL_Amin_Resume_Front_End_Web_Developer_14_July_2024.pdf";
+import resume from "./../../assets/Resume/AL_Amin_Resume_Front_End_Web_Developer_16_Jul_2025.pdf";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 

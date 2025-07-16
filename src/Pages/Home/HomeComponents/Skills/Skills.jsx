@@ -10,7 +10,12 @@ import react from "./../../../../assets/images/react.png";
 import firebase from "./../../../../assets/images/firebase.png";
 import express from "./../../../../assets/images/express.png";
 import mongodb from "./../../../../assets/images/mongodb.png";
+import next from "./../../../../assets/images/icons8-next.js-48.png";
+import redux from "./../../../../assets/images/Redux.png";
+import TypeScript from "./../../../../assets/images/TypeScript.png";
 // import daisyui from "daisyui";
+
+// https://techicons.dev/
 
 const Skills = () => {
   return (
@@ -44,6 +49,18 @@ const Skills = () => {
         <SkillsDiv>
           <img className="h-24 w-full object-cover" src={react} alt="" />
           <p>React</p>
+        </SkillsDiv>
+        <SkillsDiv>
+          <img className="h-24 w-full object-cover" src={next} alt="" />
+          <p>Next</p>
+        </SkillsDiv>
+        <SkillsDiv>
+          <img className="h-24 w-full object-cover" src={TypeScript} alt="" />
+          <p>TypeScript</p>
+        </SkillsDiv>
+        <SkillsDiv>
+          <img className="h-24 w-full object-cover" src={redux} alt="" />
+          <p>Redux</p>
         </SkillsDiv>
         <SkillsDiv>
           <img className="h-24 w-full object-cover" src={firebase} alt="" />

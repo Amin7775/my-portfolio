@@ -7,7 +7,7 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(form.current)
+    console.log(form.current);
     emailjs
       .sendForm("service_0yyowvj", "template_1la5xqe", form.current, {
         publicKey: "-lLj0s9W14i7KtBXo",
@@ -15,9 +15,13 @@ const ContactForm = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          alert("Message sent successfully!");
+          form.current.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
+          alert("Failed to send message. Please try again.");
+          console.error("FAILED...", error);
         }
       );
   };
